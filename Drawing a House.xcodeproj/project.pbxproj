@@ -21,6 +21,7 @@
 		7D79C3ED184077830093F3C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D79C3CF184077820093F3C3 /* UIKit.framework */; };
 		7D79C3F5184077830093F3C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D79C3F3184077830093F3C3 /* InfoPlist.strings */; };
 		7D79C3F7184077830093F3C3 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C3F6184077830093F3C3 /* Drawing_a_HouseTests.m */; };
+		7D79C402184077F90093F3C3 /* DHHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79C401184077F90093F3C3 /* DHHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7D79C3F2184077830093F3C3 /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		7D79C3F4184077830093F3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D79C3F6184077830093F3C3 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		7D79C400184077F90093F3C3 /* DHHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHHouseView.h; path = ../DHHouseView.h; sourceTree = "<group>"; };
+		7D79C401184077F90093F3C3 /* DHHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHHouseView.m; path = ../DHHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				7D79C3DA184077820093F3C3 /* DHAppDelegate.h */,
 				7D79C3DB184077820093F3C3 /* DHAppDelegate.m */,
 				7D79C3DD184077820093F3C3 /* Main.storyboard */,
+				7D79C400184077F90093F3C3 /* DHHouseView.h */,
+				7D79C401184077F90093F3C3 /* DHHouseView.m */,
 				7D79C3E0184077820093F3C3 /* DHViewController.h */,
 				7D79C3E1184077820093F3C3 /* DHViewController.m */,
 				7D79C3E3184077820093F3C3 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				7D79C3DC184077820093F3C3 /* DHAppDelegate.m in Sources */,
 				7D79C3E2184077820093F3C3 /* DHViewController.m in Sources */,
 				7D79C3D8184077820093F3C3 /* main.m in Sources */,
+				7D79C402184077F90093F3C3 /* DHHouseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
